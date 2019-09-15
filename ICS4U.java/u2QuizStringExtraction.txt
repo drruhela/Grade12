@@ -1,0 +1,3 @@
+str = "Niagra Falls";
+
+falls = str.substring(7);

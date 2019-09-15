@@ -1,0 +1,8 @@
+int n = 246;
+
+int firstDig = n % 10;
+n /= 10;
+int secDig = n % 10;
+n /= 10;
+int thirdDig = () n;
+int sum = firstDig + secDig + thirdDig;

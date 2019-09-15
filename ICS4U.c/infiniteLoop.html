@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Infinite loop?</title>
+</head>
+<body>
+<script type="text/javascript">
+	let v = Math.pow(2, 53);
+	for (let i=v; i < v + 2; i += 1) {
+		console.log(i);
+	}
+</script>
+</body>
+</html>
